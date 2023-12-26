@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Cálculo de Depreciação de Produto</title>
+</head>
+
+<body>
+    
+    <div class="principal">
+
+        <div class="header">
+            <h1>Cálculo de Depreciação de Produto</h1>
+        </div>
+        
+        <hr>
+
+        <div class="boxMedia">
+
+                    <div class="linhaDados">
+                        <div class="campos">
+                            <label class="labelCdp">Valor Estimado do Produto (R$):</label><br>
+                            <input type="text" class="inputCdp" id="valorEstimado">
+                        </div>
+                        <div>
+                            <label class="labelCdp">Valor Sucata (R$):</label><br>
+                            <input type="text" class="inputCdp" id="valorSucata">
+                        </div>
+                    </div><br>
+                    <div class="linhaDados">
+                        <div  class="campos">
+                            <label class="labelCdp">Vida Útil (meses):</label><br>
+                            <input type="text" class="inputCdp" id="vidaUtil">
+                        </div>
+                        <div>
+                            <label class="labelCdp">Tempo de Uso (meses):</label><br>
+                            <input type="text" class="inputCdp" id="tempoUso">
+                        </div><br>
+                    </div>
+                     
+        </div>
+
+        <div class="divBtn">
+            <button type="button" class="btnCalcular" id="btn" value="calcular">Calcular</button>
+        </div>
+
+        <hr>
+
+        <div class="saidaDados">
+            <div>
+            <input type="text" readonly class="respostaCalculo" id="saidaCalculo">
+            </div>
+        </div>
+
+        
+
+    </div>
+
+</body>
+
+<script src="./assets/js/script.js"></script>
+
+</html>
+
+
+
